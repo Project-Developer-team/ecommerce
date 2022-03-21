@@ -1,15 +1,15 @@
 package com.quinbay.Ecommerce.backend.services;
 
 import com.quinbay.Ecommerce.backend.dto.Cart;
-import com.quinbay.Ecommerce.backend.dto.Product;
 import com.quinbay.Ecommerce.backend.entity.CartEntity;
-import com.quinbay.Ecommerce.backend.entity.ProductEntity;
 import com.quinbay.Ecommerce.backend.repository.CartRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Service
 public class CartServiceImpl implements CartService{
 
     @Autowired

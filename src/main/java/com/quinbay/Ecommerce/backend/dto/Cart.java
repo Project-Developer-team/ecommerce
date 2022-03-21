@@ -5,6 +5,7 @@ public class Cart {
     private Long productId;   //foreign key
     private Long userId;    //foreign key
 
+
     public Long getId() {
         return id;
     }

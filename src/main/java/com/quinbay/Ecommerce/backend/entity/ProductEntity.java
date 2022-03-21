@@ -1,5 +1,6 @@
 package com.quinbay.Ecommerce.backend.entity;
 
+
 public class ProductEntity {
     private Long id;  //primary key
     private Long sellerId;  //secondary key
